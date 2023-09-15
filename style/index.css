@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor: #3e784b;
+    --cor2: #427e26;
+    --cor3: #568f3c;
+    --cor4: #95ce29;
+    --cor5: #7dac5d;
+}
+.banner-image{
+    background: url(../img/nature-1283976_1920.webp) rgba(0, 0, 0, .3);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+nav{
+    transition: .5s;
+}
