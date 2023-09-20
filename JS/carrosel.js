@@ -18,7 +18,7 @@ $(".carousel-control-next").on("click", function () {
     if (!isAnimating && scrollPosition < (carouselWidth - (cardWidth * 4))) {
         isAnimating = true;
         scrollPosition += cardWidth;
-        $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 600, function () {
+        $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 2000, function () {
             isAnimating = false;
         });
     }
@@ -28,7 +28,7 @@ $(".carousel-control-prev").on("click", function () {
     if (!isAnimating && scrollPosition > 0) {
         isAnimating = true;
         scrollPosition -= cardWidth;
-        $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 600, function () {
+        $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 2000, function () {
             isAnimating = false;
         });
     }
